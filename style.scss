@@ -1,0 +1,99 @@
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    background: transparent !important;
+}
+
+#box{
+    opacity: 0;
+    padding: 0;
+}
+
+.container{
+    width: fit-content;
+    text-align: center;
+    padding: 20px;
+
+    .title{
+        font-weight: 800;
+        margin-top: 10px;
+    }
+    .description{
+        width: 800px;
+        margin: auto;
+    }
+    
+    .img{
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+       
+    }
+    .price{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    .back_btn{
+        width: 200px;
+        height: 50px;
+        background-color: rgb(0, 191, 255);
+        border: 0;
+        outline: none;
+        
+        a{
+            text-decoration: none;
+            color: white;
+            text-transform: capitalize;
+            font-size: 25px;
+            padding: 67px;
+            
+        }
+    }
+
+    
+
+    .row{
+       margin: auto;
+
+        col{
+            position: relative;
+            border: 1px solid black;
+            width: 400px;
+            height: 500px;
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+          
+            img{
+                width: 200px;
+                height: 200px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            button{
+                position: absolute;
+                bottom: 0;
+                left: 25%;
+                width: 200px;
+                height: 50px;
+                background-color: rgb(0, 191, 255);
+                color: white;
+                border: 0;
+                outline: none;
+                text-transform: capitalize;
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+            h5{
+                position: absolute;
+                left: 143px;
+                bottom: 77px;
+            }
+        }
+    }
+}

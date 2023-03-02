@@ -1,0 +1,89 @@
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  background: transparent !important;
+}
+
+#box {
+  opacity: 0;
+  padding: 0;
+}
+
+.container {
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  padding: 20px;
+}
+.container .title {
+  font-weight: 800;
+  margin-top: 10px;
+}
+.container .description {
+  width: 800px;
+  margin: auto;
+}
+.container .img {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+}
+.container .price {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.container .back_btn {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(0, 191, 255);
+  border: 0;
+  outline: none;
+}
+.container .back_btn a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-size: 25px;
+  padding: 67px;
+}
+.container .row {
+  margin: auto;
+}
+.container .row col {
+  position: relative;
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+.container .row col img {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .row col button {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(0, 191, 255);
+  color: white;
+  border: 0;
+  outline: none;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.container .row col h5 {
+  position: absolute;
+  left: 143px;
+  bottom: 77px;
+}/*# sourceMappingURL=style.css.map */
